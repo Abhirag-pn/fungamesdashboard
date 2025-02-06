@@ -1,0 +1,30 @@
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "fungamesdashboard",
+          "appId": "1:724099199005:android:a37ff790faabec616f96f4",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "fungamesdashboard",
+          "configurations": {
+            "android": "1:724099199005:android:a37ff790faabec616f96f4",
+            "web": "1:724099199005:web:22abd0b8a4e9480b6f96f4"
+          }
+        }
+      }
+    }
+  },
+  "hosting": {
+    "public": "build/web",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
